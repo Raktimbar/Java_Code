@@ -10,16 +10,21 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	
-{
+    {
     
     Scanner sc=new Scanner(System.in);
+   
     int n=sc.nextInt();
-    if(n%2==0)
-    {
-        System.out.println("even number is  " +n);
-    }
-    else
-    System.out.println("odd number is " +n);
+    
+    if(n%2==0)  //if the number is even so the reminder will be 0
+         {
+        System.out.println("even number is  " +n);  //when satisfying the above condition output will be the given number is an even.
+         }
+	 
+    else         //if above condition doesnot satisfy it will be executed in else part.
+    
+    System.out.println("odd number is " +n);  //so it is an odd number.
         
-}
+    }
+
 }
