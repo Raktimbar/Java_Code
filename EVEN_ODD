@@ -18,13 +18,14 @@ class Codechef
     
     if(n%2==0)  //if the number is even so the reminder will be 0
          {
-        System.out.println("even number is  " +n);  //when satisfying the above condition output will be the given number is an even.
+               System.out.println("even number is  " +n);  //when satisfying the above condition output will be the given number is an even.
          }
 	 
     else         //if above condition doesnot satisfy it will be executed in else part.
-    
-    System.out.println("odd number is " +n);  //so it is an odd number.
-        
+         {
+               System.out.println("odd number is " +n);  //so it is an odd number.
+         }
+     
     }
 
 }
