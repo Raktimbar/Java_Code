@@ -1,0 +1,37 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	              {
+		Scanner sc=new Scanner(System.in);
+		
+		//*reverse of three numbers by using fourth variale
+		
+		       int a=sc.nextInt(); //*first value put the user
+		       int b=sc.nextInt(); //*then second value put the user
+		       int c=sc.nextInt(); //*then third value put the user
+		       int store=0;        //*extra variable for storing a particular number
+		
+		                       store=a;  //*store will be updated by first number's value
+                           
+		                        a=c;     //*then first number will remain free on that case third value will assign to first number.
+		
+		                        c=store;//*store variable have the first number so it's value assign to third variable
+                            
+		                        //*second number remain unchange
+                            
+		
+		System.out.println(a); //*print the upadated first number 
+		System.out.println(b); //*unchanged
+		System.out.println(c); //*print the updated third number
+		
+	                }
+                  
+                  
+}
