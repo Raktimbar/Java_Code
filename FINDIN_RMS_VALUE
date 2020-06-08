@@ -1,0 +1,42 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		//*finding RMS value
+		
+		        int a=sc.nextInt(); //*first value put the user
+	           	int b=sc.nextInt(); //*then second value put the user
+		
+		int f=0;        //*square of first number stores in it
+		int s=0;        //*square of second number stores in it
+		
+	    float m=0f;     //*float type datatype because mean of integer number can be a decimal
+	    
+		float r=1f;     //*square root of some numbers can also a decimal type for this reason it takes float type
+		
+		f=a*a;  //*squae of first given number 
+		
+		s=b*b;  //*square of second given number
+		
+		m=(f+s)/2;  //*finding average between the both square numbers
+		
+		System.out.println("the RMS value is "+Math.sqrt(m)); //*then finding square root of the above average and printing RMS calculate valur to user.
+		
+		
+		
+	
+		
+		
+		
+	}
+  
+}
