@@ -1,0 +1,45 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	   {
+	
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int n=sc.nextInt(); //*user put the value to find n'th terms of fibonacci series 
+			
+		int a=0;            //*in fibonacci series first value is 0;so initial value store this 'a' variable
+		
+		int b=1;            //*in fibonacci series second value is 1;so initial value store this 'b' variable
+		
+		System.out.println(a+" ");     
+		
+		System.out.println(b+" ");
+		
+		
+		for(int i=0;i<=n-1;i++)   //*as we take the first and second number's summation in fibonacci series and the value is 1;so we want to go n'th term number but '1' value should substract from the n'th term number and execute the 'for' loop
+		   {
+			   
+			   
+		   int r=a+b; //*the sum of the two intial given value stores the data to the 'r' variable
+		   
+		   System.out.println(r+" "); //* 'r' variable print
+		   
+		   a=b;  //*the second value store's to the first variable
+		   
+		   b=r;  //*the resultant('r') value store's to the second variable
+		         
+				 //*process will repeat then
+		   
+		    
+		   }
+		
+	    }
+}
