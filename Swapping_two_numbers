@@ -1,0 +1,33 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	   {
+	    
+	    Scanner sc=new Scanner(System.in);
+	    
+	    //*swapping between two numbers without using third variable
+	    
+		int a=sc.nextInt(); //*user give the first number(data type integer)
+		int b=sc.nextInt(); //*user give the second number(data type integer)
+		
+		a=(a+b);     //* first number will updating by summation of first + second number
+		
+		b=(a-b);   //*second number will update by subtraction from first number(second number=updated first number(in the above line updated) - present second number)
+		
+		a=(a-b);  //*then once again the first number will update by subtraction from updated second number(on the above line){first number = updated first number - updated second number}  
+		
+		
+		System.out.println("after swapping the second value store in first that is " +a); //*after swapping this output will be shown to user
+		
+		System.out.println("after swapping the first value store in second that is " +b); //*after swapping this output will be shown to user
+		
+	   }
+	   
+}
