@@ -1,0 +1,53 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	        {
+	       
+	       
+	       Scanner sc=new Scanner(System.in);
+	       
+	       int n=sc.nextInt();
+	       
+	       float sum=0;
+	       
+	                         for(float i=1;i<=n;i++) //*there need a loop from 1 to n and the data type of i should be decimal type so we take float datatype
+	                            {
+	                                if(i%2==0)
+	                                
+	                                {
+	                                 sum-=1/i; //*if even function it will be subtracted from the sum
+	                                }
+	                                
+	                                else
+	                                
+	                                {
+	                                sum+=1/i;  //*sum+=1/i means sum=sum+1/i;in else ppart if the number will odd so it will be added to te main sum result
+	                                }
+	                                
+	                                
+	                            
+	                                
+	                            }
+	       
+	       
+	       
+	       System.out.println("the result is "+sum);        //*print the final sum of those number 
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       }
+
+    
+}
