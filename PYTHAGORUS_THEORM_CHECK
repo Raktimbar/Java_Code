@@ -1,0 +1,43 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+    	{
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter side of left triangle");
+		int a=sc.nextInt();
+		
+		System.out.println("side of right triangle");
+		int b=sc.nextInt();
+		
+		System.out.println("hypotenuse");
+		int c=sc.nextInt();
+		
+		int f=a*a;
+		int s=b*b;
+		int add=f+s;
+		int k=c*c;
+		
+		
+		
+	        if(k==add)
+            	{
+	                
+	                System.out.println("Pythagorus theorm followed because c^2=a^2+b^2 we know that");
+	    
+            	}
+
+        	else
+	            {
+	                
+	                System.out.println("Pythagorus theorm does not followed because we know that c^2=a^2+b^2 formula does not followed the given numbers");	
+            	}
+     	}
+}
