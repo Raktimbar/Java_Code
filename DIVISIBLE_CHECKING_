@@ -1,0 +1,52 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	        {
+		                Scanner sc=new Scanner(System.in);
+		
+	                	System.out.println("Enter the divident");
+	                	int a=sc.nextInt();
+		
+		                System.out.println("Enter the divisor");
+		                int b=sc.nextInt();
+		
+		                        float result=0;
+		                        float reminder=0;
+		                                        
+		                                        
+		                                        if(a%b==0)  \\*as a simple logic we know that if divident modulo divisor ==0;hence on that fact the divident is  divisble  by the divisor 
+		                                                  
+		                                        {
+		    
+		                                          result=a/b;       //*the quotient value of divident/divisor stored in it
+		                                          reminder=a%b;         //*the reminder value of divident/divisor stored in it
+		    
+		                                            System.out.println("the number is divisible");
+		                                            System.out.println("the reminder is "+reminder);
+		                                            System.out.println("the quotient is "+result);
+		                                        
+		                                            
+		                                        }
+		                                        
+		                                        else    //*when the reminder not 0 on that case we directly say that the divisor can't divisible the divident
+		                                                {
+		                                                    
+		                                                     result=a/b;
+		                                                     reminder=a%b;
+		     
+		                                                    System.out.println("the number is not divisible");
+		                                                    System.out.println("the reminder is "+reminder);
+		                                                    System.out.println("the quotient is "+result);
+		                                                
+		                                                            
+		                                                }
+		
+	        }
+}
